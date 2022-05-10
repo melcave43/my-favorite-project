@@ -1,4 +1,87 @@
-h1 {
+body {
+    background: rgba(108, 80, 173, 0.664);
+    font-family: "Poppins", sans-serif;
+}
+
+h2 {
+    color: #e8eaed;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 26px;
+    margin: 0;
+}
+
+ul {
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+li {
+    color: #c3afe4;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    list-style: none;
+}
+
+form {
+    line-height: 30px;
+    border-radius: 10px;
     text-align: center;
-    color: lightblue;
+}
+
+.col-5 {
+    text-align: center;
+}
+
+.btn-sm {
+    line-height: 20px;
+    margin: 15px 5px;
+}
+
+.weather-icon {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.temperature {
+    font-size: 55px;
+    font-weight: 200;
+    line-height: 1;
+}
+
+.weather-app {
+    border: 1px solid #e8eaed;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 15px;
+    max-width: 620px;
+}
+
+.days {
+    font-size: 30px;
+    font-weight: 150;
+    line-height: 1;
+}
+
+.climate {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.units {
+    position: relative;
+    top: -28px;
+}
+
+.btn-outline-primary {
+    color: #2464c4;
+    background-color: #7dadf594;
+}
+
+.btn-outline-success {
+    color: #0b7459;
+    background-color: #3dbd9d80;
 }
